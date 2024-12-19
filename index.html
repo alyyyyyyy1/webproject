@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#dancegroup">Dance Group</a></li>
+                <li><a href="#movie">movie</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT Student</p>
+            <h1><span>Hi, I'm </span> Alyssa Nicole<br>Sacar</h1>
+        </div>
+        </div>
+    </div>
+                        <!----------  About --------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Pleased to meet you, I am Alyssa Nicole Sacar, a 22 year old, 3rd year student from Tagbilaran City, Bohol, currently taking Bachelor of Science Information Technology. 
+                        One thing about me is I am a huge fan of music. I listen to variety of music. And I believe that music is a language that everyone could understand. </p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('food')">Fave Food</p>
+                            <p class="tab-links" onclick="opentab('song')">Fave songw/artist</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="food">
+                            <ul>
+                                <li><span>-Pizza
+                                   <br> -Chicken Nuggets
+                                   <br> -Siopao
+                                   <br> -Pasta
+                                   <br> -Ice Cream
+                                   <br> -Korean Foods</span></li>
+                                
+                            </ul>
+                        </div>
+                        <!----------  artist --------->
+                        <div class="tab-contents" id="song">
+                            <ul>
+                                <li><span>-Sweatshirt by Patrick Hizon
+                                   <br> -To My Youth by bol4
+                                   <br> -Hoodie by Dionela
+                                   <br> -Marilag by Dionela
+                                   <br> -ILYSB by LANY </span></li>
+                                
+                            </ul>
+                        </div>
+                        <!---------- hobbies --------->
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>-Gaming
+                                   <br> -Music
+                                   <br> -Reading
+                                   <br> -Streaming</span></li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------SCHOOL ATTENDED --------->
+    <div id="dancegroup">
+        <div class="container">
+            <h1 class="sub-title">K-Pop Group</h1>
+            <div class="language-list">
+                <div>
+                    <h2>NTC</h2>
+                    <p>They are known for their versatility in music, vocal and rap abilities, and powerful performances, and have been cited as K-pop's "most experimental boy band" due to their concept of having limitless members.</p>    
+                </div>
+                <div>
+                    <h2>EXO</h2>
+                    <p>Exo (stylized as EXO) is a South Korean-Chinese boy band based in Seoul, with nine members: Xiumin, Suho, Lay, Baekhyun, Chen, Chanyeol, D.O., Kai and Sehun. The band was formed by SM Entertainment in 2011 and debuted in 2012.</p>
+                </div>
+                <div>
+                    <h2>Girls' Generation</h2>
+                    <p>Girls' Generation (Hangul: 소녀시대; Kanji: 少女時代; also known as SNSD or SoShi) is an eight-member girl group under SM Entertainment. Originally as nine, they debuted on August 5, 2007 with their first single "Into the New World". They are often referred to as "The Nation's Girl Group".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  anime --------->
+        <div id="movie">
+            <div class="fcontainer">
+                <h1 class="sub-title">Favorite Movies</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/barbie.jpg">
+                        <div class="layer">
+                            <h1>Barbie</h1>
+                            <p>Barbie lives in Barbieland with other dolls, including Ken, Allan, and Midge. She works a high-position job and presides over the matriarchal society. However, Barbie begins to have feelings she's never experienced before, which causes her world to fall apart. She reluctantly goes to the real world to confront her fears and anxieties.</p>        
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/wicked.jpg">
+                        <div class="layer">
+                        <h1>Wicked</h1>
+                            <p> The movie focuses on the friendship between Elphaba, a young woman with green skin who will become the Wicked Witch of the West, and Glinda, a popular young woman who will become Glinda the Good. The two meet at Shiz University in the Land of Oz and their friendship is tested after an encounter with the Wizard of Oz.</p>
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/avangers.jpg">
+                        <div class="layer">                       
+                        <h1>Avangers</h1>
+                        <p>The Avengers were assembled by S.H.I.E.L.D. to defeat Loki and his Chitauri army in New York City. The first team included Iron Man, Captain America, The Hulk, Thor, Black Widow, and Hawkeye.</p>        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>alyyysuh@gmail.com</p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09560535012</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>Alyssa Nicole</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">    
+        <p>&copy; 2024 Alyssa Nicole Sacar. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
